@@ -1,0 +1,188 @@
+
+Data??
+
+Structured Data -> Machine Learning Algorithms
+
+Unstructured-> Computer Vision with deep learning(Images+Videos),
+               
+               Natural Language Processing with Deeplearning(Text,Audio)
+
+Types of Analytics:
+
+1) Descriptive Analytics-What happened in the past?
+
+2) Diagnostic Analytics->Why did it happen?
+
+3) Predictive Analytics- What may happen in the Future?
+
+4) Prescriptive Analytics-What actions/Solutions to be taken?
+
+ML/AI/DS/Analytics
+
+1) Business Understanding/Problem Statement/Usecase Identification-> AIPM
+
+AIPM should give detailed description/report about the usecase
+
+
+2) Analytic Approach ->ML/CV/NLP ->DS (AIPM help may/may not be required)
+
+Supervised Learning->Labelled data(Column for Dependent Variable)
+
+Dependent variable->numerical(Regression)
+
+->Linear Regression
+
+->KNN Regression
+
+->Support Vector Machine Regression(SVM)
+
+->Decision Tree Regression
+
+->Bagging
+
+->AdaBoost
+
+->Gradient Boost
+
+->XG Boost
+
+->Random Forest
+
+Categorical(Classification)
+
+-> Logistic Regression
+
+-> KNN Classifier
+
+->SVM Classifier
+
+->Decision Tree Classifier
+
+->Bagging Classifier
+
+->AdaBoost Classifier
+
+->gradient Boost
+
+->Random Forest
+
+->Naive Bayes Classifier
+
+
+
+KNN  -> 85%   84%
+
+Random Forest -> 85%   84%
+
+3)Data Requirements/Data Collection-> AIPM and DS and DE
+
+Description of the data and the challenges(quality) with/of the dataset
+
+4)Data Understanding->Data Visualization (Data Scientist)
+
+Suggestion-> Discuss with DS and get the inferences.
+
+Ask them to give the detailed inferences
+
+AIPM->More questionnaire
+
+5) Data Preparation (Data Scientists)
+
+DS->Missing values, Outliers(optional),Redundancy(Duplicacy),Categorical data handling
+
+Skewness in the data?
+
+Data is Balanced?(Imbalance ->Class distribution skewness)
+
+Imbalanced-> Which approach?
+
+Fraudulent Transaction->less than 1%   non fraudulent (99%)->Model biased towards non fraud
+
+Churn     70%(700)     Not a churn  -30%(300)
+
+  upsample-   Churn -700   Not a churn(700 by duplicating the records)
+  Downsampling- Churn- 300(sample of 300 from 700)   Not a churn -300
+  Random sampling-Churn- 200      Not a churn-200
+  SMOTE- Churn -700      Not a churn -700(300+400 neighboring data points)
+
+6)Modelling and Evaluation:(DS) (AIPM can interfere)
+
+AIPM-> Atleast 5 algorithms to be implemented
+
+Top 3 algorithms
+
+Finally we can end up with one (Highest score)(No underfitting  no overfitting),(Complexity of the model),(FP,FN)
+
+underfitting-> Train and Test less than 75%
+
+Overfitting-> Train and Test score difference should be less than 5%(The score should be >75%)
+
+7)Deployment
+
+Prior to deployment(DS to deploy it locally(ex:gradio) ->Performance of the model
+
+Suggestion: Data to DS (90%)
+
+Remaining 10%,u can check the performance of the Model
+
+DS ->90% score
+
+85%
+
+Deviation -> (Tweak the Hyperparameter)
+
+Churn         churn
+
+
+Not a Churn   Churn
+
+
+Churn           Churn
+
+Churn       Not
+ 
+Not a churn    Not
+
+
+80        78
+
+56      58
+
+58      49
+
+69      68
+
+
+AIPM-> Continuous Monitoring
+
+If any deviation,Discuss with DS and adjust the model(Tweak)
+
+
+
+Reference:
+
+
+Activity 1: Identifying AI features: https://github.com/Premalatha-success/Batch4_aipm/blob/main/AI%20feature%20identification.docx
+
+
+(Google Map,Google Photos,Money control,Kotak,Zoom etc..)
+
+
+Activity 2:Identifying ML Algorithms -Regression,Classification,Clustering
+
+link for Doc: https://github.com/Premalatha-success/Batch4_aipm/blob/main/Activity-2.docx
+
+Activity 3: Report making-Quality/Challenges in a Dataset
+
+Link for Dataset: https://github.com/Premalatha-success/Batch4_aipm/blob/main/Data_Train.xlsx
+
+
+Activity 4:https://github.com/Premalatha-success/Batch4_aipm/blob/main/Activity_2.docx
+
+
+
+
+
+
+
+
